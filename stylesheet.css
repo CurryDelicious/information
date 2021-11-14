@@ -37,12 +37,14 @@ main a{
     text-decoration: none;
     color:#6d350e;
     border-left: 1px solid #6d350e;
-    margin-bottom: 20px;
-   
 }
 
+.news{
+     border-left: 1px solid #6d350e;
+    margin-bottpm 10px;
+}
 .backhome{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 footer{
