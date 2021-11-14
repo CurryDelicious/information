@@ -36,15 +36,15 @@ main h2{
 main a{
     text-decoration: none;
     color:#6d350e;
-    border-left: 1px solid #6d350e;
+    border-left: 5px solid #6d350e;
 }
 
 .news{
-     border-left: 5px solid #6d350e;
     margin-bottpm 10px;
 }
 .backhome{
     margin-top: 20px;
+    
 }
 
 footer{
