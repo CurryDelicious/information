@@ -1,19 +1,19 @@
 body{
-    margin: 0px;
+    margin: 0px 0px;
 }
 
 header{
     color:#8b4513;
     font-family: serif;
     background-color:#fff8dc;
-    font-size: 20px;
-    padding: 2px 20px;
-    margin:0px;
+    font-size:20px;
+    padding: 0px 20px;
+    margin: 0px;
     border: 5px solid #8b4513;
 }
 
 header h1{
-    margin: 0px;
+    margin:0px;
 }
 
 .photo{
@@ -84,25 +84,51 @@ header h1{
   }
 }
 
-.main{
+main{
     background-color: #ffffe5;
-    padding: 2px 20px;
+    padding: 10px 50px 2px 50px;
     margin: 0px;
     font-family:serif;
-    color: #6d350e;
+    color:#6d350e;
 }
 
-.main h1{
-    margin:0px;
-    text-align: center;
+
+main a{
+    text-decoration: none;
 }
 
+.news{
+    margin-bottom: 10px;
+    border-top: 1px solid #6d350e;
+    color:#6d350e;
+}
+
+.news a{
+    color:#6d350e;
+}
+
+.down{
+    border-bottom: 1px solid #6d350e;   
+    color:#6d350e;
+}
+
+.down a{
+    color:#6d350e;
+}
+
+.backhome{
+    margin-top: 20px;
+}
+
+.backhome a{
+    color:#0000ff;
+}
 
 footer{
     background-color: #8b4513;
     color: #fff8dc;
     margin: 0px;
-    padding: 2px 20px; 
+    padding: 2px 2px; 
     font-family: serif;
     text-align: center;
 }
@@ -112,6 +138,6 @@ footer p{
 }
 
 a { color:#6d350e; 
-  transition:all 0.5s ease-in; 
-}
+    transition:all 0.5s ease-in; 
+  }
 a:hover { text-decoration: underline; }
